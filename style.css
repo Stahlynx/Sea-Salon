@@ -1,0 +1,239 @@
+html, body {
+  max-width: 204vh;
+  overflow-x: hidden;
+  margin: -8px;
+}
+
+.flexbox-container-1 {
+  display: flex;
+  flex-direction: column;
+  width: 204vh;
+}
+
+.upper-layer {
+  background-color: white;
+  width: 204vh;
+  height: 90px;
+  position: fixed;
+  z-index: 10000;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  box-shadow: 2px 2px 5px 3px rgba(58, 58, 58, 0.392);
+}
+
+.upper-left {
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  flex-grow: 0;
+}
+
+.upper-center {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.upper-right {
+  flex-grow: 0;
+}
+
+.icon {
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 40px;
+}
+
+.title {
+  margin: 10px 10px 0px 30px;
+  font-size: 30px;
+}
+
+.feature {
+  margin: 10px 10px 0px 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.button {
+  margin: 10px 60px 0px 0px;
+}
+
+.salon-background-color {
+  display: flex;
+  height: 133.5vh;
+  width: 210vh;
+  justify-content: center;
+  background-color: black;
+}
+
+.salon-background {
+  background-image: url("images/salon.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  height: 300vh;
+  width: 210vh;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.slogan-container {
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+  min-width: 45vw;
+  min-height: 80vh;
+  height: 100%;
+  width: 100%;
+}
+
+.slogan-color {
+  color: blanchedalmond;
+}
+
+.service {
+  font-family: arial;
+  width: 184vh;
+  display:flex;
+  margin: 20px 100px;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.service-title{
+  margin: 10px 10px 0px 30px;
+  font-size: 30px;
+}
+
+.flexbox{
+  height:auto;
+  width:400px;
+  box-shadow:2px 2px 5px 3px rgb(174, 168, 168);
+  margin: 5px 20px;
+  min-width: 10px;
+}
+
+.flexbox-2{
+  margin-left: 5px;
+  margin-bottom: 5px;
+  min-width: 10px;
+}
+
+.image{
+  width:100%;
+  object-fit: cover;
+}
+
+.contact{
+  background-color: black;
+  height: 23vh;
+  width: 204vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.white-text{
+  color: rgb(255, 255, 255);
+}
+
+.contact-information{
+  font-size: 20px;
+  padding: 0px 40px;
+  display: flex;
+}
+
+.big-text{
+  font-size: 50px;
+}
+
+.login{
+  cursor: pointer;
+  background-color: black;
+  border: none;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 5px;
+}
+
+.login:hover{
+  opacity: 0.7;
+}
+
+.login:active{
+  background-color: white; 
+}
+
+.seasalon{
+  font-size: 40px;
+}
+
+.review-page{
+  margin: 30px 0px 0px 0px;
+  background-color: rgba(88, 88, 88, 0.39);
+  height: 64vh; 
+  width: auto;
+  padding: 100px;
+  display: flex;
+  background-image: url("images/salon2.jpg");
+}
+
+.review-box{
+  padding: 40px;
+  flex-grow: 1;
+  height: auto;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.675);
+}
+
+.review-content-box{
+  display: flex;
+  align-items: center;
+}
+
+.fill-box{
+  margin-top: 12px;
+  padding-left: 40px;
+  border-radius: 20px;
+  height: 35px;
+  width: 500px;
+  z-index: 4;
+}
+
+.review-elmt{
+  margin: 10px 10px 0px 30px;
+}
+
+.bonus-text{
+  margin: 40px;
+}
+
+.submit{
+  cursor: pointer;
+  z-index: 10;
+  margin: 40px;
+  background-color: rgb(255, 255, 255);
+  height: 40px;
+  width: 100px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.submit:hover{
+  opacity: 0.7;
+}
+
+.submit:active{
+  background-color: white; 
+}
